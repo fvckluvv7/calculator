@@ -8,7 +8,7 @@ buttons.forEach((btn) => {
         }   else if ( btn.id === "ac") {
             display.value = "";
         } else if ( btn.id == "de") {
-            display.value = display.value.slide(0, -1)
+            display.value = display.value.slice(0, -1)
         } else {
             display.value += btn.id
         }
